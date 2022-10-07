@@ -1,12 +1,12 @@
 ---
-description: Reference for Azure DevTest Labs SDK for Python
+ms.author: lmazuel
+ms.devlang: python
+ms.data: 10/07/2022
 ms.topic: reference
 ms.service: devtestlabs
-ms.author: lmazuel
+description: Reference for Azure DevTest Labs SDK for Python
 title: Azure DevTest Labs SDK for Python
 author: lmazuel
-ms.devlang: python
-ms.data: 10/06/2022
 ---
 # Azure DevTest Labs libraries for python
 
