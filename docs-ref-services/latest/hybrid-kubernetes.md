@@ -1,12 +1,12 @@
 ---
-author: lmazuel
-ms.service: hybridkubernetes
-ms.devlang: python
 ms.topic: reference
-title: Azure Hybrid Kubernetes SDK for Python
+ms.data: 10/06/2022
 description: Reference for Azure Hybrid Kubernetes SDK for Python
+ms.devlang: python
+ms.service: hybridkubernetes
+title: Azure Hybrid Kubernetes SDK for Python
 ms.author: lmazuel
-ms.data: 10/05/2022
+author: lmazuel
 ---
 # Azure Hybrid Kubernetes SDK for Python - latest
 
