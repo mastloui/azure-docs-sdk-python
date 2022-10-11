@@ -1,7 +1,7 @@
 {
   "Name": "azure-mgmt-cosmosdb",
-  "Version": "9.0.0b1",
-  "DevVersion": null,
+  "Version": "9.0.0a20221010001",
+  "DevVersion": "9.0.0a20221010001",
   "DirectoryPath": "sdk/cosmos/azure-mgmt-cosmosdb",
   "ServiceDirectory": "cosmos",
   "ReadMePath": "sdk/cosmos/azure-mgmt-cosmosdb/README.md",
