@@ -1,22 +1,22 @@
 ---
 title: Azure ML Package client library for Python
 keywords: Azure, python, SDK, API, azure-ai-ml, ml
-author: azureml-github
-ms.author: azureml-github
-ms.date: 10/07/2022
+author: paulshealy1
+ms.author: paulsh
+ms.date: 10/12/2022
 ms.topic: reference
 ms.devlang: python
 ms.service: ml
 ---
-# Azure ML Package client library for Python - version 0.1.0b8 
+# Azure ML Package client library for Python - version 1.1.0a20221012001 
 
 
-We are excited to introduce the public  preview of Azure Machine Learning Python SDK v2. The Python SDK v2 introduces new SDK capabilities like standalone local jobs, reusable components for pipelines and managed online/batch inferencing. Python SDK v2 allows you to move from simple to complex tasks easily and incrementally. This is enabled by using a common object model which brings concept reuse and consistency of actions across various tasks. The SDK v2 shares its foundation with the CLI v2 which is currently in also in public preview.
+We are excited to introduce the GA of Azure Machine Learning Python SDK v2. The Python SDK v2 introduces new SDK capabilities like standalone local jobs, reusable components for pipelines and managed online/batch inferencing. Python SDK v2 allows you to move from simple to complex tasks easily and incrementally. This is enabled by using a common object model which brings concept reuse and consistency of actions across various tasks. The SDK v2 shares its foundation with the CLI v2 which is also GA.
 
 [Source code][source_code] | [Package (PyPI)][ml_pypi] | [API reference documentation][ml_ref_docs] | [Product documentation][product_documentation] | [Samples][ml_samples]
 
 
-This package has been tested with Python 3.6, 3.7, 3.8, 3.9 and 3.10.
+This package has been tested with Python 3.7, 3.8, 3.9 and 3.10.
 
 For a more complete set of Azure libraries, see https://aka.ms/azsdk/python/all
 
@@ -24,7 +24,7 @@ For a more complete set of Azure libraries, see https://aka.ms/azsdk/python/all
 
 ### Prerequisites
 
-- Python 3.6 or later is required to use this package.
+- Python 3.7 or later is required to use this package.
 - You must have an [Azure subscription][azure_subscription].
 - An [Azure Machine Learning Workspace][workspace].
 
@@ -123,20 +123,20 @@ This project has adopted the [Microsoft Open Source Code of Conduct][code_of_con
 
 <!-- LINKS -->
 
-[source_code]: https://github.com/Azure/azure-sdk-for-python/tree/azure-ai-ml_0.1.0b8/sdk/ml/azure-ai-ml
+[source_code]: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/ml/azure-ai-ml
 [ml_pypi]: https://pypi.org/project/azure-ai-ml/
-[ml_ref_docs]: /python/api/azure-ai-ml/?view=azure-ml-py
-[ml_samples]: https://github.com/Azure/azureml-examples/tree/sdk-preview/sdk
+[ml_ref_docs]: https://learn.microsoft.com/python/api/overview/azure/ai-ml-readme?view=azure-python
+[ml_samples]: https://github.com/Azure/azureml-examples/tree/main/sdk/python
 [product_documentation]: /azure/machine-learning/
 [azure_subscription]: https://azure.microsoft.com/free/
 [workspace]: /azure/machine-learning/concept-workspace
 [python_logging]: https://docs.python.org/3/library/logging.html
 [sdk_logging_docs]: /azure/developer/python/azure-sdk-logging
-[azure_core_readme]: https://github.com/Azure/azure-sdk-for-python/blob/azure-ai-ml_0.1.0b8/sdk/core/azure-core/README.md
+[azure_core_readme]: https://github.com/Azure/azure-sdk-for-python/blob/main/sdk/core/azure-core/README.md
 [pip_link]: https://pypi.org/project/pip/
 [azure_core_ref_docs]: https://aka.ms/azsdk-python-core-policies
-[azure_core]: https://github.com/Azure/azure-sdk-for-python/blob/azure-ai-ml_0.1.0b8/sdk/core/azure-core/README.md
-[azure_identity]: https://github.com/Azure/azure-sdk-for-python/tree/azure-ai-ml_0.1.0b8/sdk/identity/azure-identity
+[azure_core]: https://github.com/Azure/azure-sdk-for-python/blob/main/sdk/core/azure-core/README.md
+[azure_identity]: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/identity/azure-identity
 [python_logging]: https://docs.python.org/3/library/logging.html
 [cla]: https://cla.microsoft.com
 [code_of_conduct]: https://opensource.microsoft.com/codeofconduct/
